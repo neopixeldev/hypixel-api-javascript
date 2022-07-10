@@ -1,0 +1,33 @@
+{
+  "name": "hypixel-api-javascript",
+  "version": "0.0.1",
+  "description": "Asynchronous JavaScript wrapper for the Hypixel API",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypixelapiwrapper/hypixel-api-javascript.git"
+  },
+  "type": "module",
+  "keywords": [
+    "javascript",
+    "hypixel",
+    "api",
+    "wrapper"
+  ],
+  "author": "ChiefChippy2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypixelapiwrapper/hypixel-api-javascript/issues"
+  },
+  "homepage": "https://github.com/hypixelapiwrapper/hypixel-api-javascript#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
